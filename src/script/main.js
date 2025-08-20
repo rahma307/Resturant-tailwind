@@ -20,7 +20,7 @@ window.addEventListener('scroll', () => {
         header.classList.remove("fixed")
         header.classList.add("relative")
          header.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
-        header.style.marginTop = "5.5rem";
+        header.style.marginTop = "2.4rem";
         cont.classList.add("fixed")
          }, 100);
     }

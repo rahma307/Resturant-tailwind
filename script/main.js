@@ -20,7 +20,7 @@ window.addEventListener('scroll', () => {
         header.classList.remove("fixed")
         header.classList.add("relative")
          header.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
-        header.style.marginTop = "2.4rem";
+        header.style.marginTop = "5.5rem";
         cont.classList.add("fixed")
          }, 100);
     }
@@ -56,17 +56,17 @@ function updateDots() {
   let width = window.innerWidth;
 
   dots.forEach((dot) => {
-    let totalDots = 40; // عدد النقط الأصلي
+    let totalDots = 40;  
     let visibleDots;
 
     if (width <= 400) {
-      visibleDots = 0; // تختفي خالص
+      visibleDots = 0;  
     } else if (width <= 600) {
-      visibleDots = 3; // 3 نقط
+      visibleDots = 3;  
     } else if (width <= 800) {
-      visibleDots = 15; // 5 نقط
+      visibleDots = 15;  
     } else {
-      visibleDots = totalDots; // كل النقط
+      visibleDots = totalDots;  
     }
 
     dot.innerHTML = ".".repeat(visibleDots);

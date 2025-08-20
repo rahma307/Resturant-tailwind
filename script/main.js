@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
     
     if (window.scrollY > 50) {
        setTimeout(() => {
-          cont.classList.add("hidden")
+          cont.classList.add("hidden") 
         header.classList.add("fixed")
         header.classList.remove("relative")
         header.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
